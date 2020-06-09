@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+header{
+    background-color: #582f2c;
+    height: auto;
+    padding: 1rem;
+    text-align: center;
+}
+
+.logo{
+    float:top;
+    height: 12vw;
+    width: auto;
+}
+
+h1{
+    text-align: center;
+    font-size:2.2em;
+}
+
+a{
+    text-decoration: none;
+}
+
+hr{
+    width: 85%;
+}
+
+.about{
+    margin:3rem;
+}
+
+.aboutcontainer{
+    display: block;
+    text-align:center;
+}
+
+.aboutcontainer p{
+    font-size: 20px;
+    line-height: 2rem;
+}
+
+.aboutcontainer a{
+    font-size: 20px;
+}
+
+.subteams{
+    margin: 2rem;
+}
+
+.subteamname{
+    background-color: rgb(199, 246, 255); 
+    padding: 2rem;   
+    box-shadow: 4px 4px 4px grey;
+    margin: 2rem;
+}
+
+.listofteams{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+@media only screen and (min-width: 1000px){
+
+    .logo{
+        float:top;
+        height: 7vw;
+        width: auto;
+    }
+
+    .aboutcontainer{
+        display: inline-block;
+        flex-direction: column;
+        text-align: center;
+        padding-left:10rem;
+        padding-right: 10rem;
+    }
+
+    .subteams{
+        margin: 4rem;
+    }
+
+    .subteamname{
+        width: calc(100% - 8rem);
+    }
+
+    .listofteams{
+        flex-direction: row;
+        flex-wrap: nowrap;
+        text-align: center;
+        justify-content: space-evenly;   
+    }
+}
+
+
+
+

@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+header{
+    background-color: #582f2c;
+    height: auto;
+    padding: 1rem;
+    text-align: center;
+}
+
+.logo{
+    float:top;
+    height: 12vw;
+    width: auto;
+}
+
+h1{
+    text-align: center;
+    font-size:2.2em;
+}
+
+a{
+    text-decoration: none;
+}
+
+hr{
+    width: 85%;
+}
+
+.about{
+    margin:3rem;
+}
+
+.aboutcontainer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.aboutcontainer p{
+    font-size: 20px;
+    line-height: 2rem;
+    margin-bottom:50px;
+}
+
+
+.images{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.images img{
+    width:80vw;
+    margin-bottom:6rem;
+    height:auto;
+    transform: rotate(90deg);
+    box-shadow: 5px -5px 5px grey;
+}
+
+.images:last-of-type{
+    margin-bottom: 0;
+}
+
+.members{
+    display: flex;
+    flex-direction: column;
+    flex-wrap:nowrap;
+    margin:3rem;
+    margin-top:0;
+}
+
+.teammember{
+    background:rgb(199, 246, 255); 
+    box-shadow: 2px 2px 4px grey;
+    margin: 1rem;
+    padding:1rem;
+}
+
+
+@media only screen and (min-width: 900px){
+
+    .logo{
+        float:top;
+        height: 7vw;
+        width: auto;
+    }
+
+    .aboutcontainer{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-left:10rem;
+        padding-right: 10rem;
+    }
+
+    .images{
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .images img{
+        height: 40vh;
+        width: auto;
+        margin:7px;
+        margin-top:40px;
+        margin-bottom:120px;
+    }
+}
+
+
+
+
